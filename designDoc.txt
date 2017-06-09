@@ -1,21 +1,41 @@
 Pitch:
-A browser game focused around building an orbital space station and providing services for NPCs, which in turn unlock upgrades to attract more NPCs.
+	A browser game focused around building an orbital space station and providing services for NPCs, which in turn unlock upgrades to attract more NPCs.
 
 Loop:
-Using resorces gained by having NPCs dock at the player station, new modules are built and added to to the hull of the existing station. These new modules will unlock new docking pad or new facilities which will draw in new NPCs or get the current NPCs to produce a different kind of resource. Various resources will compete and even generate negavite effects if both are on the same station.
+	Using resorces gained by having NPCs dock at the player station, new modules are built and added to to the hull of the existing station. These new modules will unlock new docking pad or new facilities which will draw in new NPCs or get the current NPCs to produce a different kind of resource. Various resources will compete and even generate negavite effects if both are on the same station.
 
 Visual:
-A voxel based games, blocky and 'cute'. The player can rotate the camera around the station to view the exterior as well as the planet that it is orbiting. The view will be able to see incoming ships start off as a small dot and grow in size as it approaches for docking. 
+	Initial iteration will be a 2D version of the following; A voxel based game, blocky and 'cute'. The player can rotate the camera around the station to view the exterior as well as the planet that it is orbiting. The view will be able to see incoming ships start off as a small dot and grow in size as it approaches for docking.
 
 End Game:
 Through extensive upgrading the player will be able to focus on 1 of 4 (or 5) different specializations:
 
-Warping: The abilitiy to travel in order to gain new and exotic resources.
+	Warping: The abilitiy to travel in order to gain new and exotic resources.
 
-Combat: Mounting of gun turrents and fighter bays in exchange of docking bays, thus allowing for occupation in conflict zones against other NPCs (or PCs?).
+	Combat: Mounting of gun turrents and fighter bays in exchange of docking bays, thus allowing for occupation in conflict zones against other NPCs (or PCs?).
 
-Mining: Trading combat and docking bays for refineries and miner quartesr can generate riches for the player and an excess of a narrow band of resources. 
+	Mining: Trading combat and docking bays for refineries and miner quartesr can generate riches for the player and an excess of a narrow band of resources. 
 
-Colonization: A combination of warping and mining, with this spec players can travel to new worlds and establish new colonies. Players will not have access to most resources via trade and instead will have to spearhead a self sufficient outpost.
+	Colonization: A combination of warping and mining, with this spec players can travel to new worlds and establish new colonies. Players will not have access to most resources via trade and instead will have to spearhead a self sufficient outpost.
 
-Trade: A trade station has an excess of docking bays and not much else. Players will have to maintain a large station and make adjustments for conflicting resources being stored and traded. 
+	Trade: A trade station has an excess of docking bays and not much else. Players will have to maintain a large station and make adjustments for conflicting resources being stored and traded. 
+
+
+Controls:
+	A GUI to control sheilds, power, heating, air locks, etc. will also have hotkey options.
+
+Mechanics:
+	Station Altitude: By raising or lowering the station it will attract different ships (clents? dockers?). Closer to the surface will attract planet bound ships. Higher orbit will pick up fewer planet bound ships but an increased number of Moom shuttles. Moving into a very high orbit will ensure no planet bound ships can make it to the station but now interstellar craft can dock. 
+
+	Fire:
+
+	Fuel:
+
+	Food:
+
+	Firearms:
+
+	Organism Needs: 
+
+Resources:
+Food, Fule and Firearms, or the triple F system. Each of the different kinds of NPCs will request a certian resource and leave another. These are traded amongst the NPCs as well as used by the player for various gameplay items. 
