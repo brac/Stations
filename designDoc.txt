@@ -5,10 +5,10 @@ Loop:
 	Using resorces gained by having NPCs dock at the player station, new modules are built and added to to the hull of the existing station. These new modules will unlock new docking pad or new facilities which will draw in new NPCs or get the current NPCs to produce a different kind of resource. Various resources will compete and even generate negavite effects if both are on the same station.
 
 Visual:
-	Initial iteration will be a 2D version of the following; A voxel based game, blocky and 'cute'. The player can rotate the camera around the station to view the exterior as well as the planet that it is orbiting. The view will be able to see incoming ships start off as a small dot and grow in size as it approaches for docking.
+	Initial iterations will be a 2D version of the following; A voxel based game, blocky and 'cute'. The player can rotate the camera around the station to view the exterior as well as the planet that it is orbiting. The view will be able to see incoming ships start off as a small dot and grow in size as it approaches for docking.
 
 End Game:
-Through extensive upgrading the player will be able to focus on 1 of 4 (or 5) different specializations:
+Through extensive upgrading the player will be able to focus on 1-2 of 5 different specializations:
 
 	Warping: The abilitiy to travel in order to gain new and exotic resources.
 
@@ -27,15 +27,58 @@ Controls:
 Mechanics:
 	Station Altitude: By raising or lowering the station it will attract different ships (clents? dockers?). Closer to the surface will attract planet bound ships. Higher orbit will pick up fewer planet bound ships but an increased number of Moom shuttles. Moving into a very high orbit will ensure no planet bound ships can make it to the station but now interstellar craft can dock. 
 
-	Fire:
+	Fire: Fires can break out in almost any station module. Players need only click on an effected module to being the extinguisning process, which takes a little time. Damage to the module sowly falls off until the fire is completly out. Not addressing a fire and it will spread, causing catistrophic failuers.
 
-	Fuel:
+	Repair: A result of fireds, weapons damange, explosions, decompression, etc; repairs are handeled in the same way as fires, but the damage does not increase or spread. 
 
-	Food:
+	Fuel: A constant stream of fule is needed to keep the station in orbit. Changing altitudes will temperorally require more fule, and pulling out of a planets gravity well will take a lot of fuel. Running out of fuel will cause the station to fall back into the atmosphere and be destroyed.
 
-	Firearms:
+	Food: A constant supply is needed to feed the crew. Increased jobs such as fire fighting and repair will cause a bump in food consumption. Larger stations require more food and running out of food will cause the crew to be negelant in their duties and eventually die, creating a ghost station that will eventually run out of fuel. 
 
-	Organism Needs: 
+	Firearms: A combination of 'guns and ammo', this vaule can be increased through purchasing or trading. They are used in defence of pirates and takeovers and can be combined into large station defences.
+
+	Organism Needs: Eventually the player will want to house a different species of crew, which will require specific resources. These needs will be widly vaired, some requiring extra food, others requiring a different atmosphere for their crew quarters. 
 
 Resources:
-Food, Fule and Firearms, or the triple F system. Each of the different kinds of NPCs will request a certian resource and leave another. These are traded amongst the NPCs as well as used by the player for various gameplay items. 
+Food, Fule and Firearms. Each of the different kinds of NPCs will request a certian resource and leave another. These are traded amongst the NPCs as well as used by the player for various gameplay items. 
+
+Research tree:
+
+GUI:
+
+Upgrade Items:
+
+NPC Ship Types:
+
+Alien Species:
+
+
+Iteration 01:
+	2D space, space station in the center able to move up and down.
+
+Iteration 02:
+	+Move too far down and re-entry death.
+
+Iteration 03:
+	+Move too far up and lost in deep space.
+
+Iteration 04:
+	+NPC ships spawn randomly.
+
+Iteration 05:
+	+NPC ships dock at station.
+
+Iteration 06:
+	+NPC ships take turns docking one at a time.
+
+Iteration 07:
+	+NPC ships transfer credits to station.
+
+Iteration 08:
+	+NPC ships trade credits for oxygen.
+
+Iteration 09:
+	+New NPC ship trades oxygen for fuel
+
+Iteration 10:
+	+Oxygen needing ships spawn at high orbit, fuel seeing ships spawn at low orbit.
