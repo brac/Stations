@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Stations v.01</title>
+	<script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		
+		var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+		function preload(){
+
+			game.load.image('sky', 'assets/sky02.png');
+			game.load.spritesheet('playerStation', 'assets/station01.png');
+
+		}
+
+		var player;
+		var cursors;
+
+		function create(){
+
+			//Enabling the physics system
+			game.physics.startSystem(Phaser.Physics.ARCADE);
+
+			//Creating the background
+			game.add.sprite(0, 0, 'sky');
+
+			//Creating the player station
+			player = game.add.sprite(275, game.world.height - 300, 'playerStation');
+
+			//Setting the player physics
+			game.physics.arcade.enable(player);
+			
+			player.body.collideWorldBounds = true;
+
+			//Adding controls
+			cursors = game.input.keyboard.createCursorKeys();
+
+
+		}
+
+		function update(){
+
+			//If nothing is pressed, the player holds y position
+			player.body.velocity.y = 0;
+
+			//If up is pressed, ship moves up
+			if (cursors.up.isDown){
+			
+				player.body.velocity.y = -100;
+			
+			//if down is pressed, ship moves down
+			} else if (cursors.down.isDown){
+
+				player.body.velocity.y = 100;
+			}
+
+		}
+
+
+	</script>
+
+</body>
+</html>

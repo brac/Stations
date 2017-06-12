@@ -53,8 +53,14 @@ NPC Ship Types:
 Alien Species:
 
 
-Iteration 01:
+Iteration 01: COMPLETED
 	2D space, space station in the center able to move up and down.
+
+Iteration 01.5: Non-Essential
+	+Add parralax background with rotating planet
+
+Iteration 01.7: Non-Essential
+	+Add animation to moving up and down through sprite sheets 
 
 Iteration 02:
 	+Move too far down and re-entry death.
