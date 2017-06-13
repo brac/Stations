@@ -53,20 +53,25 @@ NPC Ship Types:
 Alien Species:
 
 
-Iteration 01: COMPLETED
+Iteration 01: Hello Space! COMPLETED
 	2D space, space station in the center able to move up and down.
 
-Iteration 01.5: Non-Essential
-	+Add parralax background with rotating planet
-
-Iteration 01.7: Non-Essential
+Iteration 01.5: Spritesheet proof COMPLETED
 	+Add animation to moving up and down through sprite sheets 
 
-Iteration 02:
+Iteration 01.7: Parralax
+	+Add parralax background with rotating planet
+
+Iteration 02: Death States part 1
 	+Move too far down and re-entry death.
 
-Iteration 03:
+Iteration 03: Death States part 2
 	+Move too far up and lost in deep space.
+
+Iteration 03.5: Fuel Counter
+	+A fuel counter counts down as the player moves up and down.
+		Costs more fuel at edges of upper and lower
+		Small fuel decline while stationary
 
 Iteration 04:
 	+NPC ships spawn randomly.
